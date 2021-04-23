@@ -48,7 +48,7 @@ def nanopool(address):
         print(res)
         return True
 def main():
-	address = '43ZBkWEBNvSYQDsEMMCktSFHrQZTDwwyZfPp43FQknuy4UD3qhozWMtM4kKRyrr2Nk66JEiTypfvPbkFd5fGXbA1LxwhFZf'
+    address = '43ZBkWEBNvSYQDsEMMCktSFHrQZTDwwyZfPp43FQknuy4UD3qhozWMtM4kKRyrr2Nk66JEiTypfvPbkFd5fGXbA1LxwhFZf'
     pools = ['f2pool','c3pool','minexmr','supportxmr','nanopool']
     for f in pools:
         try:
